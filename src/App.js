@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
 
+function HeroSection() {
+  return (
+    <div className="hero">
+      <h1>Todo List</h1>
+      <p>Make every day a step forward towards your goals!</p>
+    </div>
+  );
+}
+
 function TodoItem({ item, toggleTask, deleteTask }) {
   return (
     <li className={`task ${item.completed ? 'completed' : ''}`}>
@@ -46,8 +55,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo List</h1>
-      <div>
+      <HeroSection />
+      <div className="input-container">
         <input
           type="text"
           value={inputValue}

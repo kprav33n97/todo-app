@@ -25,6 +25,8 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   outline: none;
+  width: 60%;
+  margin-right: 20px;
 }
 
 input[type="text"]::placeholder {
@@ -83,4 +85,24 @@ ul {
 
 .task button:hover {
   background-color: #cc0000;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 15px;
 }
