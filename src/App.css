@@ -34,7 +34,7 @@ input[type="text"]::placeholder {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #3700D8;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -89,7 +89,7 @@ ul {
 
 /* Hero Section Styles */
 .hero {
-  background-color: #007bff;
+  background-color: #3700D8;
   color: #fff;
   padding: 40px;
   text-align: center;
